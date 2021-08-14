@@ -5,7 +5,7 @@
 
 此项目为前置版本，使用PaddleDetection实现自定义数据集标注及模型训练并导出侧端部署.nb模型。
 
-**使用工具：精灵标注、PaddleDetection、PaddleLite**
+**使用工具：精灵标注、PaddleDetection、PaddleLite、**
 
 <font size = 3 color = blue>[PaddleDetection官方文档](https://github.com/PaddlePaddle/PaddleDetection) ，[Paddle-Lite官方文档](https://github.com/PaddlePaddle/Paddle-Lite)</font>
 
