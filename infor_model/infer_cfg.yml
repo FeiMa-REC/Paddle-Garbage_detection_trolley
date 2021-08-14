@@ -1,0 +1,37 @@
+mode: fluid
+draw_threshold: 0.5
+metric: VOC
+image_shape:
+- 3
+- 300
+- 300
+arch: SSD
+min_subgraph_size: 60
+Preprocess:
+- interp: 1
+  keep_ratio: false
+  target_size:
+  - 300
+  - 300
+  type: Resize
+- is_scale: false
+  mean:
+  - 127.5
+  - 127.5
+  - 127.5
+  std:
+  - 127.502231
+  - 127.502231
+  - 127.502231
+  type: NormalizeImage
+- type: Permute
+label_list:
+- ChaHe
+- ShuLiaoDai
+- YanTou
+- KuaiZhi
+- ShuiGuoPi
+- HuaZhuangPingPin
+- YiLaGuan
+- ShuLiaoPin
+- GanDianChi
